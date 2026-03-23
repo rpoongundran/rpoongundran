@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poongundran | M365 SME</title>
+
+<style>
+:root {
+    --bg: #f4f6f8;
+    --text: #333;
+    --card: #fff;
+    --primary: #0078d4;
+}
+
+body.dark {
+    --bg: #0f172a;
+    --text: #e2e8f0;
+    --card: #1e293b;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: var(--card);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 { color: var(--primary); }
+
+.badge-card img {
+    width: 100px;
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<button class="toggle-btn" onclick="document.body.classList.toggle('dark')">🌙</button>
+
+<header>
+    <h1>Poongundran</h1>
+    <p>Microsoft 365 SME | Cloud | Security | Migrations</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>About Me</h2>
+<p>SME in Microsoft 365 Modern Workplace with expertise in cloud, migrations, and security.</p>
+</div>
+
+<div class="card">
+<h2>Skills</h2>
+<ul>
+<li>M365 (Exchange, Teams, SharePoint)</li>
+<li>Azure AD / Entra ID</li>
+<li>Cloud Migrations</li>
+<li>Security & Compliance</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Certifications</h2>
+
+<div class="badge-card">
+<img src="images/cert.png">
+<p>Cybersecurity Architect Expert</p>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Contact</h2>
+<p>LinkedIn: Add your link</p>
+</div>
+
+</div>
+
+</body>
+</html>
